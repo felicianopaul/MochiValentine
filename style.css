@@ -21,7 +21,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.01);
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -30,12 +30,18 @@ p {
     color: #cc0000;
 }
 
-.divBG{
-    background-color: black;
-    margin: 16.5% 0% 0% 8%; 
+.wobbly {
     position: fixed;
-    width: 40%;
-    height: 22%;
+    margin: 12.5% 0% 0% 18%; 
+    height: 8.9%;
+    width: 9%;
+}
+
+.musicNotes {
+    position: fixed;
+    margin: 2% 0% 0% 26%; 
+    height: 35%;
+    width: 15%;
 }
 
 .dangoPlayer {
@@ -58,8 +64,8 @@ p {
 
 .dango {
     position: fixed;
-    margin: 8% 0% 0% 3%; 
-    width: 12.5%;
+    margin: 7% 0% 0% 3%; 
+    width: 13.5%;
     height: 45%;
 
 }
@@ -69,3 +75,18 @@ p {
     cursor: pointer;
 }
 
+.slideContainer{
+    width: 23%;
+    margin-top: 1%;
+    margin-left: 76%;
+}
+
+volumeIcon {
+    height: 80%;
+    width: 80%;
+}
+
+.sliderRange{
+    float: right;
+    margin-top: 5%;
+}
